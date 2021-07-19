@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AddPetFragment"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Agregar mascota"
+                android:textSize="35dp" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="223dp"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="398dp"
+                    android:layout_height="213dp"
+                    android:src="@drawable/perro">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/changeImageButton"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignRight="@id/imageView"
+                    android:layout_alignBottom="@id/imageView"
+                    android:src="@drawable/ic_camera"
+                    android:text="Cambiar Imagen"></ImageView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawablePadding="10dp"
+                        android:hint="Nombre">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--<com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/typeLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/type"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:drawablePadding="10dp"
+                        android:hint="Tipo">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>-->
+
+                <TextView
+                    android:id="@+id/textAnimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Animal" />
+
+                <Spinner
+                    android:id="@+id/animalsTag"
+                    android:layout_width="371dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/textRace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Raza" />
+
+                <Spinner
+                    android:id="@+id/raceTag"
+                    android:layout_width="373dp"
+                    android:layout_height="36dp" />
+
+                <TextView
+                    android:id="@+id/textColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Color" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/color"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text=""></com.google.android.material.button.MaterialButton>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/confirmButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Confirmar">
+
+                </com.google.android.material.button.MaterialButton>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<menu
+    android:id="@+id/dropdown_menu"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/editRange"
+        android:title="Editar Rango"/>
+    <item android:id="@+id/editUser"
+        android:title="Editar Usuario"/>
+</menu>

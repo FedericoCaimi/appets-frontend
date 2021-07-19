@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/pet_img"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:src="@drawable/perro"></ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@+id/pet_img"
+                android:layout_toRightOf="@+id/pet_img"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pet_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="Nombre">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/deleteBottom"
+                android:layout_width="51dp"
+                android:layout_height="41dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="177dp"
+                android:layout_marginLeft="177dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="26dp"
+                android:layout_marginRight="26dp"
+                android:src="@drawable/ic_delete" />
+
+            <ImageView
+                android:id="@+id/missingBottom"
+                android:layout_width="51dp"
+                android:layout_height="41dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="177dp"
+                android:layout_marginLeft="177dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="76dp"
+                android:layout_marginRight="76dp"
+                android:src="@drawable/ic_missing" />
+
+            <ImageView
+                android:id="@+id/editBottom"
+                android:layout_width="51dp"
+                android:layout_height="41dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="177dp"
+                android:layout_marginLeft="177dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="126dp"
+                android:layout_marginRight="76dp"
+
+                android:src="@drawable/ic_edit" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+<!--
+ <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/color"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@color/white">
+
+
+                    <TextView
+                        android:id="@+id/post_title"
+                        android:layout_width="178dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:fontFamily="cursive"
+                        android:gravity="center"
+                        android:text="Perdido"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/post_image"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center"
+                    android:src="@drawable/zorro"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:textStyle="normal"
+                    android:fontFamily="casual"
+                    android:id="@+id/description"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Descripcion de la publicacion"
+                    ></TextView>
+
+            </LinearLayout>
+-->

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441193615844",
+    "firebase_url": "https://appets-5a68e.firebaseio.com",
+    "project_id": "appets-5a68e",
+    "storage_bucket": "appets-5a68e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441193615844:android:ccb761d43dc0e51b17b7f1",
+        "android_client_info": {
+          "package_name": "com.example.appet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441193615844-1ogtoiuuhj9meoe6b590j40rf8uh7mue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIen8QXPuIUJX-4ckc1hW1p5eAePNLUhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441193615844-1ogtoiuuhj9meoe6b590j40rf8uh7mue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
